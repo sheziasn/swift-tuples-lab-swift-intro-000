@@ -16,7 +16,8 @@
  */
 // write your code here
 
-
+var person: (name: String, age:Int)
+person = ("Shahzad", 37)
 
 
 
@@ -28,6 +29,7 @@
  */
 // write your code here
 
+print("\(person.name) is \(person.age) years old")
 
 
 
@@ -40,6 +42,7 @@
  */
 // write your code here
 
+person.age = person.age + 1
 
 
 
@@ -52,7 +55,7 @@
  */
 // write your code here
 
-
+print("Happy \(person.age) birthday, \(person.name)")
 
 
 
@@ -64,7 +67,8 @@
  */
 // write your code here
 
-
+var someone: (name: String, Age: Int)
+someone = ("AbdulAziz", 14)
 
 
 
@@ -76,6 +80,7 @@
  */
 // write your code here
 
+print("\(someone.name) is \(someone.Age) years old")
 
 
 
@@ -87,7 +92,7 @@
  */
 // write your code here
 
-
+someone.Age = someone.Age + 1
 
 
 
